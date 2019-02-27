@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon server.js",
-    "bundle": "browserify ./client/src/scripts/planet-moons-layout.js -o ./client/src/scripts/bundle.js " 
+    "bundle": "browserify ./client/src/scripts/planet-moons-layout.js > ./client/src/scripts/bundle.js " 
   },
   "keywords": [],
   "author": "",

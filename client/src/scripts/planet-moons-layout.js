@@ -3,10 +3,15 @@
  * Desc: do prototype ogma layout for expand-collapse nodes
  */
 
+// 0- require the Ogma Lib and assign to the window object for dev console access
+const Ogma = require('./vendor/ogma.min.js');
+window.Ogma = Ogma;
 
- const nums = [1,2,3];
- const sum = nums.reduce( (tallySoFar, num) => {
-     return tallySoFar + num;
- }, 0)
 
- console.log(`sum is ${sum}`);
+// 1- create a new Ogma instance
+const ogma = new Ogma({
+    container: 'graph-root',
+    renderer: 'webgl'
+  });
+
+ 
