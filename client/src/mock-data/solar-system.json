@@ -1,0 +1,140 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "data": {
+        "type": "star",
+        "name": "Sun"
+      }
+    },
+    {
+      "id": "p1",
+      "data": {
+        "type": "planet",
+        "name": "Mercury"
+      }
+    },
+    {
+      "id": "p2",
+      "data": {
+        "type": "planet",
+        "name": "Venus"
+      }
+    },
+    {
+      "id": "p3",
+      "data": {
+        "type": "planet",
+        "name": "Earth"
+      }
+    },
+    {
+      "id": "p4",
+      "data": {
+        "type": "planet",
+        "name": "Mars"
+      }
+    },
+    {
+      "id": "m1",
+      "data": {
+        "type": "satellite",
+        "name": "Moon"
+      }
+    },
+    {
+      "id": "m2",
+      "data": {
+        "type": "satellite",
+        "name": "Deimos"
+      }
+    },
+    {
+      "id": "m3",
+      "data": {
+        "type": "satellite",
+        "name": "Phobos"
+      }
+    }
+  ],
+
+  "edges": [
+    {
+      "source": "p1",
+      "target": 0,
+      "data": {
+        "type": "revolves_around"
+      }
+    },
+    {
+      "source": "p2",
+      "target": 0,
+      "data": {
+        "type": "revolves_around"
+      }
+    },
+    {
+      "source": "p3",
+      "target": 0,
+      "data": {
+        "type": "revolves_around"
+      }
+    },
+    {
+      "source": "p4",
+      "target": 0,
+      "data": {
+        "type": "revolves_around"
+      }
+    },
+    {
+      "source": "m1",
+      "target": "p3",
+      "data": {
+        "type": "orbits"
+      }
+    },
+    {
+      "source": "m2",
+      "target": "p4",
+      "data": {
+        "type": "orbits"
+      }
+    },
+    {
+      "source": "m3",
+      "target": "p4",
+      "data": {
+        "type": "orbits"
+      }
+    },
+    {
+      "source": 0,
+      "target": "p1",
+      "data": {
+        "type": "is_center_of"
+      }
+    },
+    {
+      "source": 0,
+      "target": "p2",
+      "data": {
+        "type": "is_center_of"
+      }
+    },
+    {
+      "source": 0,
+      "target": "p3",
+      "data": {
+        "type": "is_center_of"
+      }
+    },
+    {
+      "source": 0,
+      "target": "p4",
+      "data": {
+        "type": "is_center_of"
+      }
+    }
+  ]
+}

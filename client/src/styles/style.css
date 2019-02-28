@@ -18,8 +18,12 @@
 .graph-root {
   /* border: 1px dashed red; */
   position: absolute;
-  top: 50px;
+  top: 100px;
   right: 0;
   bottom: 0;
   left: 0;
+}
+
+.btn-center {
+  text-align: center;
 }
