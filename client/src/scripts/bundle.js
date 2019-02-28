@@ -11,7 +11,7 @@ window.Ogma = Ogma;
 // 1- create a new Ogma instance
 const ogma = new Ogma({
   container: "graph-root",
-  renderer: "webgl"
+  renderer: "webgl"  // webgl || canvas || svg
 });
 
 // 2- import some JSON data -- .then load into an ogma graph and apply force layout

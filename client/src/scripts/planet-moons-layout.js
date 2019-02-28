@@ -10,7 +10,7 @@ window.Ogma = Ogma;
 // 1- create a new Ogma instance
 const ogma = new Ogma({
   container: "graph-root",
-  renderer: "webgl"
+  renderer: "webgl"  // webgl || canvas || svg
 });
 
 // 2- import some JSON data -- .then load into an ogma graph and apply force layout
@@ -21,7 +21,7 @@ ogma.parse
   .then(() => ogma.layouts.forceLink({ locate: true }));
 
 
-// 3- add event listeners
+// 3- add event listeners  (and run some js fxns based on them)
 document.querySelector('#toggle-moons').addEventListener('click', (evt) => { 
     alert(`you got clicked at x,y: ${evt.x}, ${evt.y}`);
 });

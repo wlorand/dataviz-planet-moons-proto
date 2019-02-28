@@ -24,6 +24,8 @@
   left: 0;
 }
 
-.btn-center {
-  text-align: center;
+.btn-demo {
+  background: rgb(0, 0, 255);
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
 }
