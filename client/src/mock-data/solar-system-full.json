@@ -1,0 +1,339 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "data": {
+        "type": "sun",
+        "name": "Sun"
+      }
+    },
+    {
+      "id": "p1",
+      "data": {
+        "type": "planet",
+        "name": "Mercury"
+      }
+    },
+    {
+      "id": "p2",
+      "data": {
+        "type": "planet",
+        "name": "Venus"
+      }
+    },
+    {
+      "id": "p3",
+      "data": {
+        "type": "planet",
+        "name": "Earth"
+      }
+    },
+    {
+      "id": "p4",
+      "data": {
+        "type": "planet",
+        "name": "Mars"
+      }
+    },
+    {
+      "id": "p5",
+      "data": {
+        "type": "planet",
+        "name": "Jupiter"
+      }
+    },
+    {
+      "id": "p6",
+      "data": {
+        "type": "planet",
+        "name": "Saturn"
+      }
+    },
+    {
+      "id": "p7",
+      "data": {
+        "type": "planet",
+        "name": "Uranus"
+      }
+    },
+    {
+      "id": "p8",
+      "data": {
+        "type": "planet",
+        "name": "Neptune"
+      }
+    },
+    {
+      "id": "m1",
+      "data": {
+        "type": "satellite",
+        "name": "Moon"
+      }
+    },
+    {
+      "id": "m2",
+      "data": {
+        "type": "satellite",
+        "name": "Deimos"
+      }
+    },
+    {
+      "id": "m3",
+      "data": {
+        "type": "satellite",
+        "name": "Phobos"
+      }
+    },
+    {
+      "id": "m4",
+      "data": {
+        "type": "satellite",
+        "name": "Ganymede"
+      }
+    },
+    {
+      "id": "m5",
+      "data": {
+        "type": "satellite",
+        "name": "Callisto"
+      }
+    },
+    {
+      "id": "m6",
+      "data": {
+        "type": "satellite",
+        "name": "Io"
+      }
+    },
+    {
+      "id": "m7",
+      "data": {
+        "type": "satellite",
+        "name": "Europa"
+      }
+    },
+    {
+      "id": "m8",
+      "data": {
+        "type": "satellite",
+        "name": "Titan"
+      }
+    },
+    {
+      "id": "m9",
+      "data": {
+        "type": "satellite",
+        "name": "Encelactus"
+      }
+    },
+
+    {
+      "id": "m10",
+      "data": {
+        "type": "satellite",
+        "name": "Titania"
+      }
+    },
+    {
+      "id": "m11",
+      "data": {
+        "type": "satellite",
+        "name": "Oberon"
+      }
+    },
+    {
+      "id": "m12",
+      "data": {
+        "type": "satellite",
+        "name": "Umbriel"
+      }
+    },
+    {
+      "id": "m13",
+      "data": {
+        "type": "satellite",
+        "name": "Ariel"
+      }
+    },
+    {
+      "id": "m14",
+      "data": {
+        "type": "satellite",
+        "name": "Miranda"
+      }
+    },
+    {
+      "id": "m15",
+      "data": {
+        "type": "satellite",
+        "name": "Triton"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "p1",
+      "target": 0,
+      "data": {
+        "type": "revolves_around"
+      }
+    },
+    {
+      "source": "p2",
+      "target": 0,
+      "data": {
+        "type": "revolves_around"
+      }
+    },
+    {
+      "source": "p3",
+      "target": 0,
+      "data": {
+        "type": "revolves_around"
+      }
+    },
+    {
+      "source": "p4",
+      "target": 0,
+      "data": {
+        "type": "revolves_around"
+      }
+    },
+    {
+      "source": "p5",
+      "target": 0,
+      "data": {
+        "type": "revolves_around"
+      }
+    },
+    {
+      "source": "p6",
+      "target": 0,
+      "data": {
+        "type": "revolves_around"
+      }
+    },
+    {
+      "source": "p7",
+      "target": 0,
+      "data": {
+        "type": "revolves_around"
+      }
+    },
+    {
+      "source": "p8",
+      "target": 0,
+      "data": {
+        "type": "revolves_around"
+      }
+    },
+    {
+      "source": "m1",
+      "target": "p3",
+      "data": {
+        "type": "orbits"
+      }
+    },
+    {
+      "source": "m2",
+      "target": "p4",
+      "data": {
+        "type": "orbits"
+      }
+    },
+    {
+      "source": "m3",
+      "target": "p4",
+      "data": {
+        "type": "orbits"
+      }
+    },
+
+    {
+      "source": "m4",
+      "target": "p5",
+      "data": {
+        "type": "orbits"
+      }
+    },
+    {
+      "source": "m5",
+      "target": "p5",
+      "data": {
+        "type": "orbits"
+      }
+    },
+    {
+      "source": "m6",
+      "target": "p5",
+      "data": {
+        "type": "orbits"
+      }
+    },
+    {
+      "source": "m7",
+      "target": "p5",
+      "data": {
+        "type": "orbits"
+      }
+    },
+
+    {
+      "source": "m8",
+      "target": "p6",
+      "data": {
+        "type": "orbits"
+      }
+    },
+    {
+      "source": "m9",
+      "target": "p6",
+      "data": {
+        "type": "orbits"
+      }
+    },
+
+    {
+      "source": "m10",
+      "target": "p7",
+      "data": {
+        "type": "orbits"
+      }
+    },
+    {
+      "source": "m11",
+      "target": "p7",
+      "data": {
+        "type": "orbits"
+      }
+    },
+    {
+      "source": "m12",
+      "target": "p7",
+      "data": {
+        "type": "orbits"
+      }
+    },
+    {
+      "source": "m13",
+      "target": "p7",
+      "data": {
+        "type": "orbits"
+      }
+    },
+    {
+      "source": "m14",
+      "target": "p7",
+      "data": {
+        "type": "orbits"
+      }
+    },
+    {
+      "source": "m15",
+      "target": "p8",
+      "data": {
+        "type": "orbits"
+      }
+    }
+  ]
+}
